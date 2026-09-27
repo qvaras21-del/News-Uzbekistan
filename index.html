@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости Узбекистана | Лента в реальном времени</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Современная минималистичная шапка -->
+    <header>
+        <div class="container">
+            <div class="badge">Live Новости</div>
+            <h1>O'zbekiston Kunlik Yangiliklari</h1>
+            <p>Актуальные события и медиа-материалы Республики в реальном времени</p>
+            
+            <!-- Поисковая панель -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Поиск новостей по ключевым словам...">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главная секция -->
+    <main class="container">
+        <section class="news-grid" id="news-container">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Синхронизация с новостной лентой...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Лента Новостей Узбекистана. Автоматическое обновление. Работает на GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
